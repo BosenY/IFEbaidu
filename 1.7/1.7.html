@@ -1,0 +1,698 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>New world</title>
+<style type="text/css">
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+.container{
+	min-width: 1280px;
+}
+header{
+	height: 100px;
+	border: 1px solid blue;
+
+}
+	.banner-left{
+		float: left;
+		width: 150px;
+		height: 50px;
+		border: 1px solid #fff;
+		padding-top: 25px;
+		margin-left: 100px;
+	}
+	.banner-right{
+	    float: right;
+		height: 50px;
+		padding-top: 35px;
+		border: 1px solid #fff;
+		margin-right: 100px;
+	}
+	nav{
+		float: right;
+		width: 500px;
+		height: 50px;
+		padding-top: 25px;
+		border: 1px solid #fff;
+	}
+	
+
+	ul{
+		
+	}
+	li{
+		float: left;
+		list-style:none;
+		margin: 10px;
+	
+	}
+	.banner-left img{
+width: 50px;
+height: 50px;
+float: left;
+
+	}
+	/*对icon样式*/
+	.section-2{
+	
+	}
+	.icon{		
+			width: 22%;
+			float: left;
+			text-align: center;
+			height: 200px;
+			padding-top: 150px;
+			border: 1px solid blue;
+			margin: 1%;
+	}
+
+
+
+	.section-3{
+		clear: both;   /*清除浮动*/
+		background-color: #D3D3D3;
+		height: 300px;
+		text-align: center;
+		padding-top: 150px;
+		border: 1px solid #D3D3D3;
+	}
+	.section-3 img{
+width: 100px;
+height: 100px;
+	}
+	.section-3 p{
+		font-size: 70px;
+	}
+
+	/*section-4*/
+.section-4{
+	background-image:url(img/pic02.jpg);
+	height: 300px;
+}
+/*section-5*/
+.section-5{
+	height: 500px;
+	background-color: #EBEBEB;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: center;
+
+}
+.section-5 img{
+margin: 60px;
+}
+
+
+
+.section-6{
+    width: 100%;
+    height: 560px;
+}
+.section-6 .left{
+    width: 68%;
+    height: 560px;
+    float: left;
+    position: relative;
+    background: url(img/pic07.jpg) no-repeat;
+    background-size: cover;
+}
+.section-6 .left .mes{
+    color: #fff;
+    text-align: center;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    top: 130px;
+}
+.section-6 .left .mes p{
+    font-size: 30px;
+    margin: 0;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.section-6 .left .mes p:nth-child(1){
+    font-size: 50px;
+    height: 50px;
+     line-height: 50px;
+     margin-bottom: 0px;
+}
+.section-6 .left .mes p:nth-child(2){
+    font-size: 150px;
+    height: 150px;
+     line-height: 150px;
+}
+.section-6 .left::after{
+    content: '';
+    position: absolute;
+    border-width: 30px;
+    border-style: solid;
+    border-color: transparent #fff transparent transparent;
+    top: 250px;
+    left: 100%;
+    margin-left: -60px;
+}
+.section-6 .right{
+    height: 560px;
+    margin-left: 68%;
+    text-align: center;
+}
+.section-6 .right .wrapper{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    top: 130px;
+}
+.section-6 .right .wrapper .mes{
+    display: none;
+}
+.section-6 .right .wrapper .mes-1{
+    display: block;
+}
+.section-6 .right .wrapper .mes p{
+    margin: 0;
+}
+.section-6 .right .wrapper .mes p:first-child{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.section-6 .right .wrapper .mes p:first-child>span{
+    color: #BE4F48;
+}
+.section-6 .right .wrapper .mes p:last-child{
+    text-align: left;
+    line-height: 25px;
+    font-size: 14px;
+    color: #B3AFAC;
+    margin-bottom: 60px;
+    
+    -webkit-transition: color 0.4s ease-in-out;
+    -moz-transition: color 0.4s ease-in-out;
+    transition: color 0.4s ease-in-out;
+}
+.section-6 .right .wrapper .mes p:last-child:hover{
+    color: #33363F;
+}
+.section-6 .right .wrapper .button{
+    width: 100px;
+    height: 35px;
+    font-size: 13px;
+    display: inline-block;
+    line-height: 35px;
+    border: 1px solid #BE4F48;
+    color: #BE4F48;
+    background-color: #fff;
+    cursor: pointer;
+    
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.section-6 .right .wrapper .button:hover{
+    color: #fff;
+    border-radius: 3px;
+    background-color: #BE4F48;
+}
+.section-6 .right .wrapper input[type="radio"]{
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: 320px;
+    z-index: 10;
+    opacity: 0;
+    cursor: pointer;
+}
+.section-6 .right .wrapper .list{
+    height: 10px;
+    width: 10px;
+    border: 1px solid #6C5C5C;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    top: 300px;
+    z-index: 1;
+}
+.section-6 .right .wrapper .list:first-of-type{
+    background-color: #6C5C5C;
+}
+.section-6 .right .wrapper input[type="radio"]:checked~.list{
+    background-color: #fff;
+}
+.section-6 .right .wrapper input[type="radio"]:checked~.mes{
+    display: none;
+}
+.section-6 .right .wrapper input[type="radio"]:nth-of-type(1):checked~.list:nth-of-type(1){
+    background-color: #6C5C5C;
+}
+.section-6 .right .wrapper input[type="radio"]:nth-of-type(1):checked~.mes-1{
+    display: block;
+}
+.section-6 .right .wrapper input[type="radio"]:nth-of-type(2):checked~.list:nth-of-type(2){
+    background-color: #6C5C5C;
+}
+.section-6 .right .wrapper input[type="radio"]:nth-of-type(2):checked~.mes-2{
+    display: block;
+}
+.section-6 .right .wrapper input[type="radio"]:nth-of-type(3):checked~.list:nth-of-type(3){
+    background-color: #6C5C5C;
+}
+.section-6 .right .wrapper input[type="radio"]:nth-of-type(3):checked~.mes-3{
+    display: block;
+}
+
+
+
+.section-7{
+    width: 100%;
+    height: 520px;
+}
+.section-7 .wrapper{
+    width: 68%;
+    height: 520px;
+    float: left;
+    font-size: 0;
+}
+.section-7 .wrapper .cell{
+    display: inline-block;
+    width: 50%;
+    height: 520px;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+}
+.section-7 .wrapper .cell:first-child{
+    background-color: #E84E4C;
+    color: #fff;
+}
+.section-7 .wrapper .cell .mes{
+    position: relative;
+    top: 200px;
+    height: 100px;
+}
+.section-7 .wrapper .cell .mes p{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.section-7 .wrapper .cell .mes span{
+    color: #fff;
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    margin: 10px;
+    
+    -webkit-transition: width 0.4s ease-in-out;
+    -moz-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+.section-7 .wrapper .cell:nth-of-type(1) .mes span{
+    border-top: 2px solid #fff;
+}
+.section-7 .wrapper .cell:nth-of-type(2) .mes span{
+    border-top: 2px solid #ADADAD;
+}
+.section-7 .wrapper .cell .mes span:hover{
+    width: 200px;
+}
+.section-7 .wrapper .cell .button{
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    border-width: 1px;
+    border-style: solid;
+    position: relative;
+    top: 220px;
+    cursor: pointer;
+    border-radius: 0;
+    
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+#section-7 .wrapper .cell:first-child .button{
+    border-color: #fff;
+}
+#section-7 .wrapper .cell:first-child .button:hover{
+    color: #E84E4C;
+    background-color: #fff;
+    border-radius: 3px;
+}
+.section-7 .wrapper .cell:last-child .button{
+    border-color: #E84E4C;
+    color: #E84E4C;
+}
+.section-7 .wrapper .cell:last-child .button:hover{
+    background-color: #E84E4C;
+    color: #fff;
+    border-radius: 3px;
+}
+.section-7 .wrapper .cell:last-child::after{
+    content: '';
+    position: absolute;
+    border-width: 20px;
+    border-color: transparent transparent transparent #fff;
+    border-style: solid;
+    top: 240px;
+    left: 100%;
+}
+.section-7 .img{
+    height: 520px;
+    margin-left: 68%;
+    background: url(img/pic08.jpg) no-repeat;
+    background-size: cover;
+}
+
+.section-8{
+    width: 100%;
+    height: 800px;
+    text-align: center;
+}
+.section-8 .top{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.section-8 .top .mes{
+    position: relative;
+    top: 100px;
+}
+.section-8 .top .mes p{
+    margin: 0;
+}
+.section-8 .top .mes p:nth-of-type(1){
+    font-size: 18px;
+}
+.section-8 .top .mes p:nth-of-type(2){
+    font-size: 14px;
+    color: #B3AFAC;
+}
+.section-8 .top .mes span{
+    color: #fff;
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    margin: 10px;
+    border-top: 2px solid #E44F4B;
+    
+    -webkit-transition: width 0.4s ease-in-out;
+    -moz-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+.section-8 .top .mes span:hover{
+    width: 200px;
+}
+.section-8 .left{
+    width: 30%;
+    height: 400px;
+    display: inline-block;
+    font-size: 20px;
+    text-align: left;
+}
+.section-8 .left .mes{
+    width: 350px;
+    height: 130px;
+}
+.section-8 .left .mes span{
+    font-size: 14px;
+    color: #B3AFAC;
+    float: right;
+    cursor: pointer;
+}
+.section-8 .left .mes p:nth-of-type(1){
+    font-size: 16px;
+    color: #6C5C5C;
+}
+.section-8 .left .mes p:nth-of-type(2){
+    font-size: 14px;
+    color: #B3AFAC;
+    margin-bottom: 0;
+}
+.section-8 .right{
+    width: 700px;
+    height: 400px;
+    display: inline-block;
+    font-size: 20px;
+    text-align: left;
+    font-size: 0;
+}
+.section-8 .right input[type="text"]:focus,#section-8 .right textarea:focus{
+    border: 1px solid #E3E3E3;
+    background-color: #fff;
+}
+.section-8 .right input[type="text"]{
+    height: 40px;
+    width: 300px;
+    font-size: 14px;
+    color: #4E3A4F;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    background-color: #E3E3E3;
+}
+.section-8 .right textarea{
+    width: 620px;
+    height: 160px;
+    font-size: 14px;
+    color: #4E3A4F;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    background-color: #E3E3E3;
+}
+.section-8 .right input[type="submit"]{
+    width: 620px;
+    height: 40px;
+    font-size: 14px;
+    color: #4E3A4F;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 0;
+    outline: 0;
+    background-color: #E3E3E3;
+    
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.section-8 .right input[type="submit"]:hover{
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #B3AFAC,-1px -1px 1px #B3AFAC;
+}
+.section-9{
+	background-color: #5D478B ;
+	height: 350px;	
+	color: white;
+	text-align: center;
+	padding: 30px;
+}
+.section-9 input{
+	height: 30px;
+}
+footer{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color: #30303A;
+}
+footer .mes,footer .back{
+    width: 300px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+}
+footer .mes{
+    float: left;
+}
+footer .mes span{
+    cursor: pointer;
+}
+footer .back{
+    float: right;
+}
+footer .back a{
+    text-decoration: none;
+    color: #fff;
+    
+    -webkit-transition: color 0.4s ease-in-out;
+    -moz-transition: color 0.4s ease-in-out;
+    transition: color 0.4s ease-in-out;
+}
+footer .back a:hover{
+    color: #75757F;
+}
+
+</style>
+</head>
+<body>
+	<a href="#" name="top"></a>
+	<div class="container">
+		<header>
+			<div class="banner-left">
+				<div>
+					<img src="img/icon-1.png" >
+					<h1>新世界</h1>
+				</div>
+			</div>
+			<div class="banner-right">
+                                <img src="img/icon-2.jpg" alt="">
+				<span>登录</span>
+				</div>
+			<nav >
+				<ul>
+                    <a href="#"><li>首页</li></a>
+                    <a href="#"><li>最新活动</li></a>
+                    <a href="#"><li>项目介绍</li></a>
+                    <a href="#"><li>爱心社区</li></a>
+                    <a href="#"><li>关于我们</li></a>
+                    <a href="#"><li class="move"></li></a>
+                </ul>
+                </nav>
+		</header>
+		<section class="section-1"><div>
+			<img src="img/pic01.jpg" height="600px" width="100%">
+		</div></section>
+		<section class="section-2"><div>
+			<div class="icon" ><img src="img/icon-3.jpg"></div>
+			<div class="icon"><img src="img/icon-4.jpg"></div>
+			<div class="icon"><img src="img/icon-5.jpg"></div>
+			<div class="icon"><img src="img/icon-6.jpg"></div>
+		</div></section>
+		<section class="section-3"><div>
+			<img src="img/icon-1.png" width="50px" height="50px">
+			<p>关于新世界，你不知道的还有什么?</p>
+		</div></section>
+		<section class="section-4"><div></div></section>
+		<section class="section-5"><div>
+			<img src="img/pic03.jpg">
+			<img src="img/pic04.jpg">
+			<img src="img/pic05.jpg">
+			<img src="img/pic06.jpg">
+		</div></section>
+		<section class="section-6"><div>
+			 <div class="left">
+                <div class="mes">
+                    <p>新世界</p>
+                    <p>TIME</p>
+                    <p>@新世界-北京</p><br>
+                    <p>2016.04.01</p>
+                </div>
+            </div>
+            <div class="right">
+                <div class="wrapper">
+                    <input type="radio" name="list"/>
+                    <input type="radio" name="list"/>
+                    <input type="radio" name="list"/><br/>
+                    <div class="list"></div>
+                    <div class="list"></div>
+                    <div class="list"></div>
+                    <div class="mes mes-1">
+                        <p>新世界/<span>01</span></p>
+                        <p>新世界？新世界？新世界？新世界？新世界？新世界？新世界？新世界？新世界？新世界？新世界？新世界？新世界？新世界？新世界？新世界？新世界？新世界？</p>
+                    </div>
+                    <div class="mes mes-2">
+                        <p>新世界/<span>02</span></p>
+                        <p>新世界。新世界。新世界。新世界。新世界。新世界。新世界。新世界。新世界。新世界。新世界。新世界。新世界。新世界。新世界。新世界。新世界。新世界。</p>
+                    </div>
+                    <div class="mes mes-3">
+                        <p>新世界/<span>03</span></p>
+                        <p>新世界！新世界！新世界！新世界！新世界！新世界！新世界！新世界！新世界！新世界！新世界！新世界！新世界！新世界！新世界！新世界！新世界！新世界！</p>
+                    </div>
+                    <div class="button">
+                        <span>更多详情</span>
+                    </div>
+                </div>
+            </div>
+		</div></section>
+		<section class="section-7">
+	     <div class="wrapper">
+                <div class="cell">
+                    <div class="mes">
+                        <p>新时代</p>
+                        <p>关于爱生活的我们</p>
+                        <span></span>
+                    </div>
+                    <div class="button">
+                        <span>查看更多</span>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="mes">
+                        <p>新时代</p>
+                        <p>关于爱生活的我们</p>
+                        <span></span>
+                    </div>
+                    <div class="button">
+                        <span>查看更多</span>
+                    </div>
+                </div>
+            </div>
+            <div class="img"></div>
+	</section>
+		<section class="section-8"> 
+            <div class="top">
+                <div class="mes">
+                    <p>成为我们的志愿者</p>
+                    <span></span>
+                    <p>新世界的大家庭需要每一个爱生活的人的人的加入，如果你够年轻，有梦想，有激情<br/>那就不要犹豫，快来加入我们，成为改变所有人生活的人</p>
+                </div>
+            </div>
+            <div class="left">
+                <div class="mes">
+                    <p>新世界志愿者协议</p>
+                    <p>加入新世界志愿者的人员必须遵守中华人民共和国的<br/>相关法律法规，并且本着平等的原则.......</p>
+                    <span>∨ more</span>
+                </div>
+                <div class="mes">
+                    <p>新世界志愿者协议</p>
+                    <p>新世界志愿者享受新世界内部所有资源共享的权利，并<br/>且享受所在城市新世界活动的优先参与资格</p>
+                    <span>∨ more</span>
+                </div>
+                <div class="mes">
+                    <p>更多条款</p>
+                    <span>∨ more</span>
+                </div>
+            </div>
+            <div class="right">
+                <form>
+                    <input type="text" placeholder="姓名："/>
+                    <input type="text" placeholder="年龄："/>
+                    <input type="text" placeholder="联系方式："/>
+                    <input type="text" placeholder="联系地址："/>
+                    <textarea cols="30" rows="10" placeholder="请简单描述您梦想的生活："></textarea>
+                    <input type="submit" value="提交申请"/>
+                </form>
+            </div></section>
+		<section class="section-9"><div>		<h1>联系我们</h1>
+				<br>
+				<p>为了更好的获取我们最新的产品资讯，您可以留下您的电子邮箱快速订阅我们的产品资讯
+也可以通过以下任何方式关注我们的动态</p>
+        <input type="email" placeholder="someone@email.com"/>
+                <input type="submit" value=" 提交"/></div></section>
+		<footer>
+			<div class="mes">
+                <span>@2016新世界</span>
+            </div>
+            <div class="back">
+                <a href="#top">Back to top</a>
+			</div>
+		</footer>
+	</div>
+
+	
+</body>
+</html>
